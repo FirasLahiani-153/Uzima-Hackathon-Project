@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  Stethoscope, 
-  CheckCircle, 
-  AlertTriangle, 
-  Clock, 
+import {
+  Stethoscope,
+  CheckCircle,
+  AlertTriangle,
+  Clock,
   Calendar,
   ArrowRight,
   Brain,
@@ -17,6 +17,7 @@ import { useTranslation } from '../contexts/TranslationContext';
 import symptomsData from '../data/symptoms.json';
 import conditionsData from '../data/conditions.json';
 import BodyMap from '../components/BodyMap';
+import { API_ENDPOINTS } from '../config/api';
 
 const regionSymptoms = {
   head: ['headache', 'dizziness'],
@@ -41,8 +42,8 @@ const SymptomChecker = () => {
   const conditions = conditionsData.conditions;
 
   const toggleSymptom = (symptomId) => {
-    setSelectedSymptoms(prev => 
-      prev.includes(symptomId) 
+    setSelectedSymptoms(prev =>
+      prev.includes(symptomId)
         ? prev.filter(id => id !== symptomId)
         : [...prev, symptomId]
     );
@@ -69,15 +70,32 @@ const SymptomChecker = () => {
     setShowResults(false);
     setDiagnosis(null);
     try {
-      const response = await fetch('http://localhost:8000/predict', {
+      const response = await fetch(API_ENDPOINTS.PREDICT, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ symptoms: selectedSymptoms })
       });
+
+      if (!response.ok) {
+        throw new Error(`API Error: ${response.status}`);
+      }
+
       const data = await response.json();
-      setDiagnosis([{ name: data.disease, description: '', severity: 'mild', recommendation: '' }]);
+      setDiagnosis([{
+        name: data.disease,
+        description: '',
+        severity: data.confidence > 0.8 ? 'moderate' : 'mild',
+        recommendation: '',
+        confidence: data.confidence
+      }]);
     } catch (e) {
-      setDiagnosis([]);
+      console.error('Prediction error:', e);
+      setDiagnosis([{
+        name: 'Unable to analyze symptoms',
+        description: 'Please try again or consult a healthcare professional',
+        severity: 'mild',
+        recommendation: 'Check your internet connection and try again'
+      }]);
     }
     setShowResults(true);
     setIsAnalyzing(false);
@@ -136,22 +154,20 @@ const SymptomChecker = () => {
               <div className="flex space-x-4 mb-6">
                 <button
                   onClick={() => setInputMethod('body')}
-                  className={`flex items-center space-x-2 px-4 py-2 rounded-lg border-2 transition-all duration-200 ${
-                    inputMethod === 'body'
+                  className={`flex items-center space-x-2 px-4 py-2 rounded-lg border-2 transition-all duration-200 ${inputMethod === 'body'
                       ? 'border-primary-500 bg-primary-50 text-primary-700'
                       : 'border-gray-200 bg-white hover:border-primary-300'
-                  }`}
+                    }`}
                 >
                   <User className="h-5 w-5" />
                   <span>{t('symptomChecker.clickOnBodyParts')}</span>
                 </button>
                 <button
                   onClick={() => setInputMethod('list')}
-                  className={`flex items-center space-x-2 px-4 py-2 rounded-lg border-2 transition-all duration-200 ${
-                    inputMethod === 'list'
+                  className={`flex items-center space-x-2 px-4 py-2 rounded-lg border-2 transition-all duration-200 ${inputMethod === 'list'
                       ? 'border-primary-500 bg-primary-50 text-primary-700'
                       : 'border-gray-200 bg-white hover:border-primary-300'
-                  }`}
+                    }`}
                 >
                   <List className="h-5 w-5" />
                   <span>{t('symptomChecker.selectFromList')}</span>
@@ -165,7 +181,7 @@ const SymptomChecker = () => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">
                   {t('symptomChecker.clickOnBodyPartsDesc')}
                 </h3>
-                <BodyMap 
+                <BodyMap
                   onBodyPartSelect={handleBodyPartSelect}
                   selectedParts={selectedBodyParts.map(p => p.id)}
                 />
@@ -180,11 +196,10 @@ const SymptomChecker = () => {
                     <button
                       key={symptom.id}
                       onClick={() => toggleSymptom(symptom.id)}
-                      className={`p-4 rounded-lg border-2 text-left transition-all duration-200 ${
-                        selectedSymptoms.includes(symptom.id)
+                      className={`p-4 rounded-lg border-2 text-left transition-all duration-200 ${selectedSymptoms.includes(symptom.id)
                           ? 'border-primary-500 bg-primary-50 text-primary-700'
                           : 'border-gray-200 bg-white hover:border-primary-300 hover:bg-primary-25'
-                      }`}
+                        }`}
                     >
                       <div className="font-medium">{symptom.name}</div>
                       <div className="text-sm text-gray-500 mt-1">{symptom.description}</div>
@@ -248,11 +263,10 @@ const SymptomChecker = () => {
               <button
                 onClick={analyzeSymptoms}
                 disabled={(selectedSymptoms.length === 0 && selectedBodyParts.length === 0) || isAnalyzing}
-                className={`btn-primary text-lg px-8 py-4 flex items-center space-x-2 mx-auto ${
-                  (selectedSymptoms.length === 0 && selectedBodyParts.length === 0) || isAnalyzing
+                className={`btn-primary text-lg px-8 py-4 flex items-center space-x-2 mx-auto ${(selectedSymptoms.length === 0 && selectedBodyParts.length === 0) || isAnalyzing
                     ? 'opacity-50 cursor-not-allowed'
                     : ''
-                }`}
+                  }`}
               >
                 {isAnalyzing ? (
                   <>
@@ -302,7 +316,7 @@ const SymptomChecker = () => {
                           <span className="ml-1 capitalize">{condition.severity}</span>
                         </span>
                       </div>
-                      
+
                       <div className="mb-4">
                         <h4 className="font-medium text-gray-900 mb-2">{t('symptomChecker.recommendation')}</h4>
                         <p className="text-gray-600">{condition.recommendation}</p>
@@ -339,7 +353,7 @@ const SymptomChecker = () => {
                     {t('symptomChecker.bookVanVisit')}
                   </Link>
                 </div>
-                
+
                 <div className="text-center p-6 border border-gray-200 rounded-lg">
                   <Phone className="h-12 w-12 text-secondary-600 mx-auto mb-4" />
                   <h4 className="font-semibold text-gray-900 mb-2">{t('symptomChecker.emergencySupport')}</h4>
@@ -350,7 +364,7 @@ const SymptomChecker = () => {
                     {t('symptomChecker.callEmergency')}
                   </a>
                 </div>
-                
+
                 <div className="text-center p-6 border border-gray-200 rounded-lg">
                   <Calendar className="h-12 w-12 text-accent-600 mx-auto mb-4" />
                   <h4 className="font-semibold text-gray-900 mb-2">{t('symptomChecker.remoteConsultation')}</h4>
