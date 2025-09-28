@@ -1,0 +1,291 @@
+{
+    "navbar": {
+        "home": "Home",
+        "symptomChecker": "Symptom Checker",
+        "healthcareVan": "Healthcare Van",
+        "aboutUs": "About Us",
+        "contact": "Contact",
+        "getDiagnosis": "Get Diagnosis"
+    },
+    "home": {
+        "title": "Uzima Health Solutions",
+        "subtitle": "Bringing advanced healthcare to rural communities through AI diagnostics and mobile clinics.",
+        "getDiagnosis": "Get a Diagnosis",
+        "learnAboutVan": "Learn About Our Van",
+        "patientsServed": "Patients Served",
+        "ruralCommunities": "Rural Communities",
+        "diagnosticAccuracy": "Diagnostic Accuracy",
+        "emergencySupport": "Emergency Support",
+        "ourInnovativeSolutions": "Our Innovative Solutions",
+        "solutionsSubtitle": "Combining cutting-edge technology with compassionate care to transform healthcare delivery in rural communities.",
+        "features": {
+            "aiDiagnostics": {
+                "title": "AI-Powered Diagnostics",
+                "description": "Advanced AI technology provides accurate health assessments and recommendations."
+            },
+            "mobileVans": {
+                "title": "Mobile Healthcare Vans",
+                "description": "Fully equipped mobile clinics bringing healthcare directly to your community."
+            },
+            "secure": {
+                "title": "Secure & Private",
+                "description": "HIPAA-compliant data protection ensuring your health information remains confidential."
+            }
+        },
+        "ourMission": "Our Mission",
+        "missionText1": "At Uzima, we believe that quality healthcare should be accessible to everyone, regardless of their location. Our mission is to bridge the healthcare gap in rural communities through innovative technology solutions.",
+        "missionText2": "We focus on serving women and children in underserved areas, providing them with the same level of care available in urban centers through our mobile clinics and AI diagnostics.",
+        "learnMoreAboutUs": "Learn More About Us",
+        "compassionateCare": "Compassionate Care",
+        "compassionateCareDesc": "Putting patients first in everything we do",
+        "innovation": "Innovation",
+        "innovationDesc": "Leveraging cutting-edge technology",
+        "sustainability": "Sustainability",
+        "sustainabilityDesc": "Eco-friendly solutions for a better future",
+        "communityFocus": "Community Focus",
+        "communityFocusDesc": "Serving rural communities with dedication",
+        "whyChooseUzima": "Why Choose Uzima?",
+        "whyChooseSubtitle": "Experience healthcare that's accessible, accurate, and environmentally conscious.",
+        "benefits": [
+            "AI-powered symptom analysis",
+            "Real-time healthcare van tracking",
+            "24/7 emergency support",
+            "Multilingual support",
+            "HIPAA-compliant data security"
+        ],
+        "readyToExperience": "Ready to Experience Better Healthcare?",
+        "readySubtitle": "Get started with our AI-powered symptom checker or schedule a visit from our mobile clinic.",
+        "startYourDiagnosis": "Start Your Diagnosis",
+        "contactUsToday": "Contact Us Today"
+    },
+    "about": {
+        "title": "About Uzima",
+        "subtitle": "We are a healthcare technology company dedicated to transforming healthcare delivery in rural communities through innovative AI diagnostics and mobile clinics.",
+        "ourMission": "Our Mission",
+        "missionText1": "At Uzima, we believe that quality healthcare should be accessible to everyone, regardless of their location. Our mission is to bridge the healthcare gap in rural communities by bringing advanced medical technology and professional care directly to those who need it most.",
+        "missionText2": "We focus on serving women and children in underserved areas, providing them with the same level of care available in urban centers through our innovative mobile clinics and AI-powered diagnostics.",
+        "communitiesServed": "50+ Communities Served",
+        "patients": "10,000+ Patients",
+        "patientCentered": "Patient-Centered",
+        "patientCenteredDesc": "Every decision we make puts our patients first",
+        "innovation": "Innovation",
+        "innovationDesc": "Cutting-edge technology for better outcomes",
+        "sustainability": "Sustainability",
+        "sustainabilityDesc": "Eco-friendly solutions for a better future",
+        "trust": "Trust",
+        "trustDesc": "Transparent and secure healthcare delivery",
+        "ourValues": "Our Values",
+        "valuesSubtitle": "These core values guide everything we do and shape our commitment to transforming healthcare in rural communities.",
+        "values": {
+            "compassionateCare": {
+                "title": "Compassionate Care",
+                "description": "We believe every person deserves access to quality healthcare, regardless of their location or economic status."
+            },
+            "innovation": {
+                "title": "Innovation",
+                "description": "We leverage cutting-edge technology to solve healthcare challenges in rural communities."
+            },
+            "sustainability": {
+                "title": "Sustainability",
+                "description": "Our solutions are designed to be environmentally friendly and sustainable for future generations."
+            },
+            "trustPrivacy": {
+                "title": "Trust & Privacy",
+                "description": "We maintain the highest standards of data security and patient privacy protection."
+            }
+        },
+        "ourTechnology": "Our Technology",
+        "technologySubtitle": "We combine cutting-edge technology with compassionate care to deliver world-class healthcare solutions to rural communities.",
+        "technologies": {
+            "aiDiagnostics": {
+                "title": "AI-Powered Diagnostics",
+                "description": "Advanced machine learning algorithms provide accurate health assessments and recommendations.",
+                "features": [
+                    "Symptom Analysis",
+                    "Condition Prediction",
+                    "Treatment Recommendations",
+                    "Risk Assessment"
+                ]
+            },
+            "mobileVans": {
+                "title": "Mobile Healthcare Vans",
+                "description": "Fully equipped mobile clinics with advanced medical equipment and AI diagnostic tools.",
+                "features": [
+                    "Portable Ultrasound",
+                    "AI Diagnostic Scanner",
+                    "Blood Analysis",
+                    "Emergency Care"
+                ]
+            },
+            "satelliteConnectivity": {
+                "title": "Satellite Connectivity",
+                "description": "Starlink satellite integration ensures connectivity in the most remote areas.",
+                "features": [
+                    "Global Coverage",
+                    "High-Speed Internet",
+                    "Real-time Communication",
+                    "Data Transmission"
+                ]
+            }
+        },
+        "ourTeam": "Our Team",
+        "teamSubtitle": "Meet the dedicated professionals who are making healthcare accessible to rural communities across Kenya.",
+        "ourJourney": "Our Journey",
+        "journeySubtitle": "From a small startup to a leading healthcare technology company, here's how we've grown to serve rural communities.",
+        "milestones": {
+            "2020": {
+                "title": "Uzima Founded",
+                "description": "Started with a vision to bring healthcare to rural communities in Kenya."
+            },
+            "2021": {
+                "title": "First Mobile Van",
+                "description": "Launched our first mobile healthcare van serving Kibera community."
+            },
+            "2022": {
+                "title": "AI Integration",
+                "description": "Integrated AI-powered diagnostic tools into our mobile clinics."
+            },
+            "2024": {
+                "title": "Expansion",
+                "description": "Expanded services to 50+ rural communities across Kenya."
+            }
+        },
+        "joinUs": "Join Us in Transforming Healthcare",
+        "joinUsSubtitle": "Be part of our mission to bring quality healthcare to rural communities. Together, we can make a difference.",
+        "getInTouch": "Get in Touch",
+        "tryOurServices": "Try Our Services"
+    },
+    "contact": {
+        "title": "Contact & Support",
+        "subtitle": "We're here to help! Reach out to us for any questions, support, or emergency assistance. Our team is available 24/7 for emergencies.",
+        "sendMessage": "Send us a Message",
+        "messageSentSuccess": "Message Sent Successfully!",
+        "messageSentDesc": "We'll get back to you within 24 hours.",
+        "fullName": "Full Name",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Phone Number",
+        "inquiryType": "Inquiry Type",
+        "subject": "Subject",
+        "message": "Message",
+        "messagePlaceholder": "Please describe your inquiry in detail...",
+        "sending": "Sending...",
+        "sendMessage": "Send Message",
+        "emergencyContacts": "Emergency Contacts",
+        "generalInformation": "General Information",
+        "email": "Email",
+        "address": "Address",
+        "businessHours": "Business Hours",
+        "supportHours": "Support Hours",
+        "quickActions": "Quick Actions",
+        "getAIDiagnosis": "Get AI Diagnosis",
+        "bookVanVisit": "Book Van Visit",
+        "trackDelivery": "Track Delivery",
+        "faq": "Frequently Asked Questions",
+        "faq1": {
+            "question": "How do I book a van visit?",
+            "answer": "You can book a van visit through our website, call our dispatch line, or use our mobile app. We'll confirm your appointment and provide real-time tracking."
+        },
+        "faq2": {
+            "question": "Is the AI diagnosis accurate?",
+            "answer": "Our AI diagnostic system has a 95% accuracy rate, but it's designed to assist healthcare professionals, not replace them. Always consult with a medical professional for final diagnosis."
+        },
+        "faq4": {
+            "question": "What areas do you serve?",
+            "answer": "We currently serve 50+ rural communities across Kenya, with plans to expand to other East African countries. Check our coverage map for specific areas."
+        },
+        "contactTypes": {
+            "general": "General Inquiry",
+            "emergency": "Emergency Support",
+            "van_booking": "Van Booking",
+            "diagnosis": "Diagnosis Support"
+        },
+        "emergencyTypes": {
+            "hotline": "Emergency Hotline",
+            "vanDispatch": "Van Dispatch",
+            "deliverySupport": "Delivery Support"
+        },
+        "emergencyDescriptions": {
+            "hotline": "24/7 Emergency Medical Support",
+            "vanDispatch": "Mobile Clinic Booking & Dispatch"
+        },
+        "supportSchedule": {
+            "weekdays": "Monday - Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday",
+            "emergency": "Emergency Support"
+        },
+        "supportTimes": {
+            "weekdays": "8:00 AM - 6:00 PM",
+            "saturday": "9:00 AM - 4:00 PM",
+            "sunday": "Emergency Only",
+            "emergency": "24/7"
+        }
+    },
+    "symptomChecker": {
+        "title": "AI-Powered Symptom Checker",
+        "subtitle": "Describe your symptoms and our AI will provide preliminary health insights. This is not a substitute for professional medical advice.",
+        "howToDescribe": "How would you like to describe your symptoms?",
+        "clickOnBodyParts": "Click on Body Parts",
+        "selectFromList": "Select from List",
+        "clickOnBodyPartsDesc": "Click on the body parts where you're experiencing symptoms",
+        "selectYourSymptoms": "Select Your Symptoms",
+        "selectedSymptoms": "Selected Symptoms",
+        "bodyParts": "Body Parts",
+        "analyzeSymptoms": "Analyze My Symptoms",
+        "analyzingSymptoms": "Analyzing Symptoms...",
+        "analysisResults": "Analysis Results",
+        "startNewAnalysis": "Start New Analysis",
+        "recommendation": "Recommendation:",
+        "noConditionsIdentified": "No Specific Conditions Identified",
+        "noConditionsDesc": "Based on your symptoms, we recommend consulting with a healthcare professional for a proper diagnosis.",
+        "recommendedNextSteps": "Recommended Next Steps",
+        "scheduleVanVisit": "Schedule Van Visit",
+        "scheduleVanVisitDesc": "Book a visit from our mobile healthcare van for on-site consultation.",
+        "bookVanVisit": "Book Van Visit",
+        "emergencySupport": "Emergency Support",
+        "emergencySupportDesc": "Contact our 24/7 emergency support for immediate assistance.",
+        "callEmergency": "Call Emergency",
+        "remoteConsultation": "Remote Consultation",
+        "remoteConsultationDesc": "Schedule a remote consultation with our healthcare professionals.",
+        "scheduleConsultation": "Schedule Consultation",
+        "importantDisclaimer": "Important Disclaimer",
+        "disclaimerText": "This AI-powered symptom checker is for informational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for any health concerns or before making any medical decisions."
+    },
+    "vanIntegration": {
+        "title": "Mobile Healthcare Vans",
+        "subtitle": "Our fully equipped mobile clinics bring advanced healthcare directly to your community. Each van is staffed with qualified medical professionals and equipped with AI-powered diagnostic tools.",
+        "nextAvailable": "Next Available:",
+        "medicalStaff": "Medical Staff",
+        "servicesAvailable": "Services Available:",
+        "equipment": "Equipment:",
+        "bookVisit": "Book Visit",
+        "joinWaitlist": "Join Waitlist",
+        "currentlyOffline": "Currently Offline",
+        "advancedTechnology": "Advanced Technology & Equipment",
+        "aiDiagnosticScanner": "AI Diagnostic Scanner",
+        "aiDiagnosticScannerDesc": "Advanced AI-powered diagnostic tools for accurate assessments",
+        "portableEquipment": "Portable Equipment",
+        "portableEquipmentDesc": "Ultrasound, ECG, and other portable medical devices",
+        "realTimeTracking": "Real-time Tracking",
+        "realTimeTrackingDesc": "GPS tracking and real-time location updates",
+        "secureData": "Secure Data",
+        "secureDataDesc": "HIPAA-compliant data transmission and storage",
+        "ourMedicalTeam": "Our Medical Team",
+        "bookVanVisit": "Book Van Visit -",
+        "fullName": "Full Name",
+        "phoneNumber": "Phone Number",
+        "emailOptional": "Email (Optional)",
+        "symptomsReason": "Symptoms/Reason for Visit",
+        "preferredTime": "Preferred Time",
+        "yourLocation": "Your Location",
+        "locationPlaceholder": "Address or landmark",
+        "cancel": "Cancel",
+        "submitBooking": "Submit Booking",
+        "bookingSubmitted": "Booking request submitted! You will receive a confirmation call shortly."
+    },
+    "languages": {
+        "english": "English",
+        "arabic": "العربية",
+        "french": "Français"
+    }
+}

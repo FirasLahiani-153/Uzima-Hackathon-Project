@@ -1,0 +1,109 @@
+{
+    "symptoms": [
+        {
+            "id": "fever",
+            "name": "Fever",
+            "description": "Elevated body temperature, often a sign of infection."
+        },
+        {
+            "id": "rash",
+            "name": "Rash",
+            "description": "Red or irritated skin, common in many childhood illnesses."
+        },
+        {
+            "id": "sore_throat",
+            "name": "Sore Throat",
+            "description": "Pain or irritation in the throat, often with swallowing."
+        },
+        {
+            "id": "ear_pain",
+            "name": "Ear Pain",
+            "description": "Pain in or around the ear, common in children."
+        },
+        {
+            "id": "vomiting",
+            "name": "Vomiting",
+            "description": "Forceful expulsion of stomach contents through the mouth."
+        },
+        {
+            "id": "diarrhea",
+            "name": "Diarrhea",
+            "description": "Frequent, loose, or watery stools."
+        },
+        {
+            "id": "cough",
+            "name": "Cough",
+            "description": "A reflex to clear the airways, common in respiratory infections."
+        },
+        {
+            "id": "runny_nose",
+            "name": "Runny Nose",
+            "description": "Excess mucus from the nose, often due to colds or allergies."
+        },
+        {
+            "id": "abdominal_pain",
+            "name": "Abdominal Pain",
+            "description": "Pain in the stomach area, common in children."
+        },
+        {
+            "id": "poor_feeding",
+            "name": "Poor Feeding",
+            "description": "Difficulty eating or lack of appetite, especially in infants."
+        },
+        {
+            "id": "irritability",
+            "name": "Irritability",
+            "description": "Unusual fussiness or crying, common in sick children."
+        },
+        {
+            "id": "wheezing",
+            "name": "Wheezing",
+            "description": "High-pitched whistling sound when breathing, often with asthma."
+        },
+        {
+            "id": "pelvic_pain",
+            "name": "Pelvic Pain",
+            "description": "Pain in the lower abdomen, common in women."
+        },
+        {
+            "id": "irregular_menstruation",
+            "name": "Irregular Menstruation",
+            "description": "Unpredictable menstrual cycles or missed periods."
+        },
+        {
+            "id": "heavy_menstrual_bleeding",
+            "name": "Heavy Menstrual Bleeding",
+            "description": "Excessive bleeding during periods."
+        },
+        {
+            "id": "vaginal_discharge",
+            "name": "Vaginal Discharge",
+            "description": "Unusual discharge, may indicate infection."
+        },
+        {
+            "id": "breast_lump",
+            "name": "Breast Lump",
+            "description": "A lump or mass in the breast, should be evaluated."
+        },
+        {
+            "id": "painful_urination",
+            "name": "Painful Urination",
+            "description": "Burning or pain when urinating, possible infection."
+        },
+        {
+            "id": "fatigue",
+            "name": "Fatigue",
+            "description": "Feeling unusually tired or weak."
+        },
+        {
+            "id": "hot_flashes",
+            "name": "Hot Flashes",
+            "description": "Sudden feelings of warmth, common in menopause."
+        },
+        {
+            "id": "lower_back_pain",
+            "name": "Lower Back Pain",
+            "description": "Pain in the lower back, common in pregnancy and menstruation."
+        }
+    ]
+}

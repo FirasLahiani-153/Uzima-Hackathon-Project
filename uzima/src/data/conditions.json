@@ -1,0 +1,106 @@
+{
+    "conditions": [
+        {
+            "id": "common_cold",
+            "name": "Common Cold",
+            "symptoms": [
+                "fever",
+                "cough",
+                "headache",
+                "fatigue"
+            ],
+            "severity": "mild",
+            "description": "Viral infection of the upper respiratory tract",
+            "recommendation": "Rest, stay hydrated, and monitor symptoms. Seek medical attention if symptoms worsen."
+        },
+        {
+            "id": "flu",
+            "name": "Influenza (Flu)",
+            "symptoms": [
+                "fever",
+                "cough",
+                "headache",
+                "fatigue",
+                "nausea"
+            ],
+            "severity": "moderate",
+            "description": "Viral infection affecting the respiratory system",
+            "recommendation": "Rest, stay hydrated, and consider antiviral medication. Seek medical attention if symptoms are severe."
+        },
+        {
+            "id": "hypertension",
+            "name": "Hypertension",
+            "symptoms": [
+                "headache",
+                "dizziness",
+                "chest_pain"
+            ],
+            "severity": "moderate",
+            "description": "High blood pressure condition",
+            "recommendation": "Immediate medical consultation required. Monitor blood pressure regularly."
+        },
+        {
+            "id": "asthma",
+            "name": "Asthma",
+            "symptoms": [
+                "cough",
+                "shortness_breath",
+                "chest_pain"
+            ],
+            "severity": "moderate",
+            "description": "Chronic respiratory condition causing breathing difficulties",
+            "recommendation": "Use prescribed inhaler and seek medical attention if symptoms worsen."
+        },
+        {
+            "id": "gastroenteritis",
+            "name": "Gastroenteritis",
+            "symptoms": [
+                "nausea",
+                "abdominal_pain",
+                "fatigue"
+            ],
+            "severity": "mild",
+            "description": "Inflammation of the stomach and intestines",
+            "recommendation": "Stay hydrated, eat bland foods, and rest. Seek medical attention if symptoms persist."
+        },
+        {
+            "id": "migraine",
+            "name": "Migraine",
+            "symptoms": [
+                "headache",
+                "nausea",
+                "dizziness"
+            ],
+            "severity": "moderate",
+            "description": "Severe headache often accompanied by nausea and sensitivity to light",
+            "recommendation": "Rest in a dark, quiet room. Consider pain medication and seek medical attention if severe."
+        },
+        {
+            "id": "pneumonia",
+            "name": "Pneumonia",
+            "symptoms": [
+                "fever",
+                "cough",
+                "shortness_breath",
+                "chest_pain",
+                "fatigue"
+            ],
+            "severity": "severe",
+            "description": "Infection that inflames air sacs in one or both lungs",
+            "recommendation": "Immediate medical attention required. This is a serious condition that needs prompt treatment."
+        },
+        {
+            "id": "heart_condition",
+            "name": "Heart Condition",
+            "symptoms": [
+                "chest_pain",
+                "shortness_breath",
+                "fatigue",
+                "dizziness"
+            ],
+            "severity": "severe",
+            "description": "Various conditions affecting the heart",
+            "recommendation": "Immediate emergency medical attention required. Call emergency services if symptoms are severe."
+        }
+    ]
+}

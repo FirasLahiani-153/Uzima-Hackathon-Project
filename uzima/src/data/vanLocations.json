@@ -1,0 +1,118 @@
+{
+    "vans": [
+        {
+            "id": "van-001",
+            "name": "Uzima Mobile Clinic Alpha",
+            "location": {
+                "latitude": 36.4111,
+                "longitude": 8.9817,
+                "address": "Le Kef, Tunisia"
+            },
+            "status": "available",
+            "equipment": [
+                "AI Diagnostic Scanner",
+                "Portable Ultrasound",
+                "Blood Pressure Monitor",
+                "Digital Thermometer",
+                "Stethoscope",
+                "First Aid Kit"
+            ],
+            "staff": [
+                {
+                    "name": "Dr. Sarah Mwangi",
+                    "role": "General Practitioner",
+                    "specialization": "Family Medicine"
+                },
+                {
+                    "name": "Nurse James Otieno",
+                    "role": "Registered Nurse",
+                    "specialization": "Emergency Care"
+                }
+            ],
+            "nextAvailable": "2024-01-15T10:00:00Z",
+            "services": [
+                "General Consultation",
+                "Vaccination",
+                "Prenatal Care",
+                "Child Health Checkup",
+                "Emergency Treatment"
+            ]
+        },
+        {
+            "id": "van-002",
+            "name": "Uzima Mobile Clinic Beta",
+            "location": {
+                "latitude": 35.6781,
+                "longitude": 10.0963,
+                "address": "Kairouan, Tunisia"
+            },
+            "status": "busy",
+            "equipment": [
+                "AI Diagnostic Scanner",
+                "Portable X-Ray",
+                "Blood Glucose Monitor",
+                "Digital Thermometer",
+                "Stethoscope",
+                "First Aid Kit"
+            ],
+            "staff": [
+                {
+                    "name": "Dr. Peter Kimani",
+                    "role": "General Practitioner",
+                    "specialization": "Internal Medicine"
+                },
+                {
+                    "name": "Nurse Grace Wanjiku",
+                    "role": "Registered Nurse",
+                    "specialization": "Maternal Health"
+                }
+            ],
+            "nextAvailable": "2024-01-15T14:30:00Z",
+            "services": [
+                "General Consultation",
+                "Diabetes Management",
+                "Prenatal Care",
+                "Child Health Checkup",
+                "Chronic Disease Management"
+            ]
+        },
+        {
+            "id": "van-003",
+            "name": "Uzima Mobile Clinic Gamma",
+            "location": {
+                "latitude": 33.8886,
+                "longitude": 9.7964,
+                "address": "Douz, Tunisia"
+            },
+            "status": "available",
+            "equipment": [
+                "AI Diagnostic Scanner",
+                "Portable ECG",
+                "Blood Pressure Monitor",
+                "Digital Thermometer",
+                "Stethoscope",
+                "First Aid Kit"
+            ],
+            "staff": [
+                {
+                    "name": "Dr. Mary Akinyi",
+                    "role": "General Practitioner",
+                    "specialization": "Pediatrics"
+                },
+                {
+                    "name": "Nurse David Mwangi",
+                    "role": "Registered Nurse",
+                    "specialization": "Child Health"
+                }
+            ],
+            "nextAvailable": "2024-01-15T09:00:00Z",
+            "services": [
+                "General Consultation",
+                "Child Health Checkup",
+                "Vaccination",
+                "Growth Monitoring",
+                "Emergency Treatment"
+            ]
+        }
+    ]
+}
