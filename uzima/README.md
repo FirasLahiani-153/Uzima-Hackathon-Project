@@ -1,12 +1,51 @@
-# React + Vite
+# 🌍 Uzima – Smart Healthcare on Wheels  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uzima is a hackathon project that combines **AI-powered healthcare diagnostics** with **mobile accessibility**. It provides both a **smart van** equipped with an AI robot for physical diagnostics and a **web application** where users can input symptoms to receive a preliminary diagnosis via machine learning.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚐 Smart Van with AI Robot  
+- Equipped with sensors and an AI-driven robot.  
+- Provides **on-the-spot diagnostics** to patients in remote or underserved areas.  
+- Brings healthcare **directly to communities** with limited access to hospitals.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Web Application  
+- Users select their symptoms from an interface.  
+- Machine learning models predict possible **illnesses or health conditions**.  
+- Offers fast and accessible **AI-assisted self-diagnosis** from anywhere.  
+
+---
+
+## ✨ Features  
+- Hybrid solution: **physical + digital healthcare access**.  
+- **Symptom checker** powered by ML.  
+- **Mobile healthcare unit** for rural and underserved populations.  
+- Potential to integrate with **telemedicine & electronic health records (EHRs)**.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend:** React / Vite (web app) 
+- **Machine Learning:** Python (FastAPI / pydantic / joblib / pandas)  
+- **Hardware:** AI-enabled robot inside smart van (Raspberry Pi, sensors, cameras)  
+
+
+---
+
+## 🚀 Future Improvements  
+- Real-time **doctor teleconsultation**.  
+- Multi-language support for inclusivity.  
+- Advanced ML models for more accurate predictions.  
+
+---
+
+
+## 🤝 Contributing  
+We welcome contributions! Please open issues or submit PRs for improvements.  
+
+---
+
+## 📜 License  
+MIT License – feel free to use and improve.  
