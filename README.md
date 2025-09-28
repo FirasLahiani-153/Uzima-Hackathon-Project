@@ -22,8 +22,7 @@ Uzima is a hackathon project that combines **AI-powered healthcare diagnostics**
 - Hybrid solution: **physical + digital healthcare access**.  
 - **Symptom checker** powered by ML.  
 - **Mobile healthcare unit** for rural and underserved populations.  
-- Potential to integrate with **telemedicine & electronic health records (EHRs)**.
-- Chatbot that can assist the patient to learn more about his illnesses
+- Potential to integrate with **telemedicine & electronic health records (EHRs)**.  
 
 ---
 
@@ -50,15 +49,3 @@ We welcome contributions! Please open issues or submit PRs for improvements.
 
 ## 📜 License  
 MIT License – feel free to use and improve.  
-
-
-## CREATE BY 
-Firas Lahiani:
-firas.lahiani153@gmail.com
-
-Mahmoud Chaari:
-mahmoudcharri1234@gmail.com
-
-Haitham Chtourou:
-haithamchtourou29@gmail.com
-
